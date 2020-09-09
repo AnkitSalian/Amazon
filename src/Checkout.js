@@ -1,8 +1,18 @@
 import React from 'react';
 import Subtotal from './Subtotal';
+import { useStateValue } from './StateProvider';
 import './Checkout.css';
 
 function Checkout() {
+    const [{ basket }, dispatch] = useStateValue();
+    const addToBasket = (id) => {
+        dispatch({
+            type: 'REMOVE_FROM_BASKET',
+            item: {
+                id,
+            }
+        })
+    }
     return (
         <div className="checkout">
             <div className="checkout__left">
