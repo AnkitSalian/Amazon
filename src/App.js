@@ -6,10 +6,10 @@ import Checkout from './Checkout';
 import Login from './Login';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
-import './App.css';
 import Category from './Category';
 import Headphone from './Headphone';
-
+import Tv from './Tv';
+import './App.css';
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -53,6 +53,11 @@ function App() {
           <Route path="/headphone">
             <Header />
             <Headphone />
+          </Route>
+
+          <Route path="/television">
+            <Header />
+            <Tv />
           </Route>
 
           <Route path="/">
