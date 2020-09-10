@@ -4,6 +4,10 @@
     margin-bottom: 20px;
 }
 
+.checkoutProduct:hover {
+    color: #3e3e3c;
+}
+
 .checkoutProduct__info {
     padding-left: 20px;
 }
@@ -17,7 +21,7 @@
     margin: 5px;
     display: flex;
     flex-flow: row;
-    width: 40%;
+    width: 200px;
     justify-content: center;
 }
 

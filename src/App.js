@@ -9,6 +9,10 @@ import { useStateValue } from './StateProvider';
 import Category from './Category';
 import Headphone from './Headphone';
 import Tv from './Tv';
+import Phone from './Phone';
+import Laptop from './Laptop';
+import Book from './Book';
+import Watch from './Watch';
 import './App.css';
 
 function App() {
@@ -58,6 +62,26 @@ function App() {
           <Route path="/television">
             <Header />
             <Tv />
+          </Route>
+
+          <Route path="/phone">
+            <Header />
+            <Phone />
+          </Route>
+
+          <Route path="/laptop">
+            <Header />
+            <Laptop />
+          </Route>
+
+          <Route path="/books">
+            <Header />
+            <Book />
+          </Route>
+
+          <Route path="/watch">
+            <Header />
+            <Watch />
           </Route>
 
           <Route path="/">

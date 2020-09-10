@@ -28,4 +28,8 @@
 
 .categoryproduct:hover {
     color: #f0c14b;
-  }
+}
+
+.categoryproduct:hover img {
+    transform: scale(1.1);
+}
