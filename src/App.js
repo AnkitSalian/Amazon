@@ -7,6 +7,8 @@ import Login from './Login';
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
 import './App.css';
+import Category from './Category';
+import Headphone from './Headphone';
 
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
   useEffect(() => {
     //Will run only once when app component loads
     auth.onAuthStateChanged(authUser => {
-      
+
       if (authUser) {
         //User logged in
         dispatch({
@@ -48,9 +50,15 @@ function App() {
             <Checkout />
           </Route>
 
+          <Route path="/headphone">
+            <Header />
+            <Headphone />
+          </Route>
+
           <Route path="/">
             <Header />
-            <Home />
+            {/* <Home /> */}
+            <Category />
           </Route>
 
         </Switch>
