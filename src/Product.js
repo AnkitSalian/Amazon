@@ -5,8 +5,14 @@ import { useStateValue } from './StateProvider';
 function Product({ id, title, image, price, rating }) {
     const [{ basket }, dispatch] = useStateValue();
 
-    const addToBasket = () => {
-        dispatch({
+    const addToBasket = async () => {
+        
+        await basket.forEach(async item => {
+            if (item.id == id) {
+                item.count += await 1;
+            }
+        })
+        await dispatch({
             type: 'ADD_TO_BASKET',
             item: {
                 id,
@@ -14,6 +20,7 @@ function Product({ id, title, image, price, rating }) {
                 image,
                 price,
                 rating,
+                count: 1,
             }
         })
     }

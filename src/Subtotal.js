@@ -6,7 +6,7 @@ import './Subtotal.css';
 function Subtotal() {
     const [{ basket }, dispatch] = useStateValue();
     const getBasketTotal = (basket) => {
-        return basket.reduce((val, obj) => val + obj['price'], 0);
+        return basket.reduce((val, obj) => val + (obj['price'] * obj['count']), 0);
     }
     return (
         <div className="subtotal">
