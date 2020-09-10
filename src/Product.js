@@ -6,7 +6,7 @@ function Product({ id, title, image, price, rating }) {
     const [{ basket }, dispatch] = useStateValue();
 
     const addToBasket = async () => {
-        
+
         await basket.forEach(async item => {
             if (item.id == id) {
                 item.count += await 1;
@@ -25,16 +25,16 @@ function Product({ id, title, image, price, rating }) {
         })
     }
     return (
-        <div className="product">
+        <div className="product" key={`product_${id}`}>
             <div className="product__info">
                 <p>{title}</p>
                 <p className="product__price">
                     <small>₹</small>
                     <strong>{price}</strong>
                 </p>
-                <div className="product__rating">
+                <div className="product__rating" key={`product_rating_${id}`}>
                     {Array(rating).fill().map((_, i) => (
-                        <p>⭐</p>
+                        <p key={`product_rating_${id}_${i}`}>⭐</p>
                     ))}
                 </div>
             </div>

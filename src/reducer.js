@@ -2,8 +2,9 @@ export const initialState = {
     basket: [],
 }
 
-const deleteItem = (basket, item) => {
-
+//Selector
+export const getBasketTotalAmount = (basket) => {
+    return basket?.reduce((val, obj) => val + (obj['price'] * obj['count']), 0);
 }
 
 const addItem = (basket) => {
@@ -28,6 +29,27 @@ const addItem = (basket) => {
     return basket;
 }
 
+const deleteItem = (basket) => {
+
+    let elem = basket.pop();
+    let index = 0;
+    if (basket.length > 0) {
+
+        for (let i = 0; i < basket.length; i++) {
+            let item = basket[i];
+            if (item.id == elem.id) {
+                index = i;
+                break;
+            }
+        }
+
+    }
+    if (basket[index].count == 0) {
+        basket.splice(index, 1);
+    }
+    return basket;
+}
+
 const reducer = (state, action) => {
 
     switch (action.type) {
@@ -40,7 +62,12 @@ const reducer = (state, action) => {
         case "REMOVE_FROM_BASKET":
             return {
                 ...state,
-                basket: deleteItem(...state.basket, action.item)
+                basket: state.basket.filter(item => item.id !== action.id)
+            }
+        case "REMOVE_ONE_ITEM":
+            return {
+                ...state,
+                basket: deleteItem([...state.basket, action.item])
             }
     }
 }
