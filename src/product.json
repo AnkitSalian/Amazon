@@ -1,0 +1,632 @@
+{
+    "product": [
+        {
+            "headphones": {
+                "id": 1,
+                "title": "Headphones",
+                "image": "https://m.media-amazon.com/images/I/71lczMQC1bL._AC_UY218_.jpg",
+                "array": [
+                    {
+                        "id": 2,
+                        "title": "Fire-Boltt Blast 1400 Over -Ear Bluetooth Wireless Headphones with 25H Playtime, Thumping Bass, Lightweight Foldable Compact Design with Google/Siri Voice Assistance",
+                        "image": "https://m.media-amazon.com/images/I/71lczMQC1bL._AC_UY218_.jpg",
+                        "price": 3499,
+                        "rating": 4
+                    },
+                    {
+                        "id": 3,
+                        "title": "Sennheiser Over Ear Wireless HD 350BT Black Headphone",
+                        "image": "https://m.media-amazon.com/images/I/51siMFU59xL._AC_UY218_.jpg",
+                        "price": 7490,
+                        "rating": 3
+                    },
+                    {
+                        "id": 4,
+                        "title": "Sennheiser HD 4.50 SE BT NC Bluetooth Wireless Noise Cancellation Headphone",
+                        "image": "https://m.media-amazon.com/images/I/61OdVcoSQVL._AC_UY218_.jpg",
+                        "price": 14990,
+                        "rating": 4
+                    },
+                    {
+                        "id": 5,
+                        "title": "boAt Rockerz 450 Wireless Bluetooth Headphone with Up to 8H Playback, Adaptive Lightweight Design, Immersive Audio, Easy Access Controls and Dual Mode Compatibility (Luscious Black)",
+                        "image": "https://m.media-amazon.com/images/I/61ihz46SLOL._AC_UY218_.jpg",
+                        "price": 1499,
+                        "rating": 4
+                    },
+                    {
+                        "id": 6,
+                        "title": "Fire-Boltt Blast 1300 On-Ear Metal Finish Wireless Bluetooth Headphone, 18-Hour Playtime, 40mm Driver with HD Sound & Ultra-Soft Ear Cushions (Charcoal Black)",
+                        "image": "https://m.media-amazon.com/images/I/61ckBBVg1HL._AC_UY218_.jpg",
+                        "price": 1599,
+                        "rating": 4
+                    },
+                    {
+                        "id": 7,
+                        "title": "Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa Voice Control - Black",
+                        "image": "https://m.media-amazon.com/images/I/51sAtKgDkDL._AC_UY218_.jpg",
+                        "price": 29363,
+                        "rating": 5
+                    }
+                ]
+            },
+            "telivision": {
+                "id": 8,
+                "title": "Television",
+                "image": "https://m.media-amazon.com/images/I/91UYojFHobL._AC_UL320_.jpg",
+                "array": [
+                    {
+                        "id": 9,
+                        "title": "Sony Bravia 164 cm (65 inches) 4K Ultra HD Certified Android LED TV 65X8000H (Black) (2020 Model)",
+                        "image": "https://m.media-amazon.com/images/I/91UYojFHobL._AC_UL320_.jpg",
+                        "price": 118741,
+                        "rating": 4
+                    },
+                    {
+                        "id": 10,
+                        "title": "LG 139 cm (55 inches) 4K UHD Smart LED TV 55UM7290PTD (Ceramic BK + Dark Steel Silver) (2019 Model)",
+                        "image": "https://m.media-amazon.com/images/I/81QJ2tzfzmL._AC_UY218_.jpg",
+                        "price": 52999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 11,
+                        "title": "OnePlus 138.8 cm (55 inches) Q1 Series 4K Certified Android QLED TV 55Q1IN-1 (Black) (Without Stand)",
+                        "image": "https://m.media-amazon.com/images/I/71EO3uGdJbL._AC_UY218_.jpg",
+                        "price": 68000,
+                        "rating": 4
+                    },
+                    {
+                        "id": 12,
+                        "title": "Mi TV 4X 163.9 cm (65 Inches) 4K Ultra HD Android LED TV (Black)",
+                        "image": "https://m.media-amazon.com/images/I/71jL1oKiPTL._AC_UL320_.jpg",
+                        "price": 54999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 13,
+                        "title": "Fire-Boltt Blast 1300 On-Ear Metal Finish Wireless Bluetooth Headphone, 18-Hour Playtime, 40mm Driver with HD Sound & Ultra-Soft Ear Cushions (Charcoal Black)",
+                        "image": "https://m.media-amazon.com/images/I/71oRARZmKnL._AC_UL320_.jpg",
+                        "price": 53900,
+                        "rating": 4
+                    },
+                    {
+                        "id": 14,
+                        "title": "OnePlus 138.8 cm (55 inches) Q1 Series 4K Certified Android QLED TV 55Q1IN Pro (Black)",
+                        "image": "https://m.media-amazon.com/images/I/71D89swgrvL._AC_UY218_.jpg",
+                        "price": 98899,
+                        "rating": 5
+                    }
+                ]
+            },
+            "mobile": {
+                "id": 15,
+                "title": "Smart Phone",
+                "image": "https://m.media-amazon.com/images/I/51kGDXeFZKL._AC_UY218_.jpg",
+                "array": [
+                    {
+                        "id": 16,
+                        "title": "Apple iPhone 11 (128GB) - Black",
+                        "image": "https://m.media-amazon.com/images/I/51kGDXeFZKL._AC_UY218_.jpg",
+                        "price": 67900,
+                        "rating": 4
+                    },
+                    {
+                        "id": 17,
+                        "title": "Samsung Galaxy S10 Plus (Black, 8GB RAM, 128GB Storage)",
+                        "image": "https://m.media-amazon.com/images/I/619jtWsN0cL._AC_UY218_.jpg",
+                        "price": 52999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 18,
+                        "title": "OnePlus 8 (Onyx Black 12GB RAM+256GB Storage)",
+                        "image": "https://m.media-amazon.com/images/I/61UeA7TUrkL._AC_UY218_.jpg",
+                        "price": 49999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 19,
+                        "title": "Samsung Galaxy Note 20 Ultra 5G (Mystic Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+                        "image": "https://m.media-amazon.com/images/I/81frwlzRG5L._AC_UY218_.jpg",
+                        "price": 104999,
+                        "rating": 5
+                    },
+                    {
+                        "id": 20,
+                        "title": "Samsung Galaxy S20 Ultra (Cosmic Gray, 12GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+                        "image": "https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg",
+                        "price": 97999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 21,
+                        "title": "Samsung Galaxy Note 20 (Mystic Bronze, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+                        "image": "https://images-na.ssl-images-amazon.com/images/I/81mNrJKEEBL._SY445_.jpg",
+                        "price": 77999,
+                        "rating": 4
+                    }
+                ]
+            },
+            "laptop": {
+                "id": 22,
+                "title": "Laptop",
+                "image": "https://m.media-amazon.com/images/I/81AJjL1E+zL._AC_UY218_.jpg",
+                "array": [
+                    {
+                        "id": 23,
+                        "title": "HP Omen 9th Gen Intel Core i5 Processor 15.6-inch FHD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/NVIDIA GTX 1650 4GB/Shadow Black), 15-dc1092TX",
+                        "image": "https://m.media-amazon.com/images/I/81AJjL1E+zL._AC_UY218_.jpg",
+                        "price": 83000,
+                        "rating": 4
+                    },
+                    {
+                        "id": 24,
+                        "title": "Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz 9th Gen Intel Core i7) - Space Grey",
+                        "image": "https://m.media-amazon.com/images/I/71L2iBSyyOL._AC_UY218_.jpg",
+                        "price": 199900,
+                        "rating": 5
+                    },
+                    {
+                        "id": 25,
+                        "title": "ASUS ZenBook 13 UX334FL-A7621TS Intel Core i7 10th Gen 13.3-inch FHD Thin & Light Laptop (16GB RAM/1TB PCIe SSD/Windows 10/MS-Office 2019/2GB NVIDIA GeForce MX250 Graphics/1.27 Kg), Royal Blue",
+                        "image": "https://m.media-amazon.com/images/I/614MujB11uL._AC_UY218_.jpg",
+                        "price": 115490,
+                        "rating": 2
+                    },
+                    {
+                        "id": 26,
+                        "title": "Dell XPS 9370 13.3-inch UHD Thin & Light Laptop(8th Gen i7-8550U/16GB/512GB SSD/Win 10 + MS Office/Integrated Graphics), Gold",
+                        "image": "https://m.media-amazon.com/images/I/61T2HPeGebL._AC_UY218_.jpg",
+                        "price": 139990,
+                        "rating": 4
+                    },
+                    {
+                        "id": 27,
+                        "title": "HP Envy x360 Ryzen 5 13.3-Inch 2-in-1 FHD Touchscreen Laptop (8GB/512GB/Windows 10/Vega 8 Graphics/MS Office/Nightfall Black/1.3 kg), 13-ar0118au",
+                        "image": "https://m.media-amazon.com/images/I/81DIp5S7RFL._AC_UY218_.jpg",
+                        "price": 77990,
+                        "rating": 4
+                    },
+                    {
+                        "id": 28,
+                        "title": "Dell Inspiron 7380 13.3-inch FHD Thin & Light Laptop (Core i5 8th Gen/8GB/512GB SSD/Windows 10 + MS Office/Integrated Graphics/Silver)",
+                        "image": "https://m.media-amazon.com/images/I/61uOi7c9XgL._AC_UY218_.jpg",
+                        "price": 71990,
+                        "rating": 5
+                    }
+                ]
+            },
+            "books": {
+                "id": 29,
+                "title": "Kindle Books",
+                "image": "https://m.media-amazon.com/images/I/91FEb-0DFuL._AC_UY218_.jpg",
+                "array": [
+                    {
+                        "id": 30,
+                        "title": "Sita: Warrior of Mithila (Ram Chandra Book 2)",
+                        "image": "https://m.media-amazon.com/images/I/91FEb-0DFuL._AC_UY218_.jpg",
+                        "price": 20,
+                        "rating": 5
+                    },
+                    {
+                        "id": 31,
+                        "title": "The 5 AM Club",
+                        "image": "https://m.media-amazon.com/images/I/71WyJmorrKL._AC_UY218_.jpg",
+                        "price": 119.97,
+                        "rating": 5
+                    },
+                    {
+                        "id": 32,
+                        "title": "Think and Grow Rich",
+                        "image": "https://m.media-amazon.com/images/I/711RcAn0EiL._AC_UY218_.jpg",
+                        "price": 103.55,
+                        "rating": 5
+                    },
+                    {
+                        "id": 33,
+                        "title": "The Power of Your Subconscious Mind",
+                        "image": "https://m.media-amazon.com/images/I/81Rift0ymZL._AC_UY218_.jpg",
+                        "price": 91.05,
+                        "rating": 5
+                    },
+                    {
+                        "id": 34,
+                        "title": "Immortals of Meluha (The Shiva Trilogy Book 1)",
+                        "image": "https://m.media-amazon.com/images/I/81zHwTa288L._AC_UY218_.jpg",
+                        "price": 25,
+                        "rating": 4
+                    },
+                    {
+                        "id": 35,
+                        "title": "How to Stop Worrying and Start Living",
+                        "image": "https://m.media-amazon.com/images/I/81ez4l+63bL._AC_UY218_.jpg",
+                        "price": 19,
+                        "rating": 5
+                    }
+                ]
+            },
+            "watch": {
+                "id": 36,
+                "title": "Smart Watch",
+                "image": "https://m.media-amazon.com/images/I/71jiGaztijL._AC_UY218_.jpg",
+                "array": [
+                    {
+                        "id": 37,
+                        "title": "Fitbit FB507RGRW Versa 2 Health & Fitness Smartwatch with Heart Rate, Music, Alexa Built-in, Sleep & Swim Tracking, Bordeaux/Copper Rose, One Size (S & L Bands Included) (Bordeaux/Copper Rose)",
+                        "image": "https://m.media-amazon.com/images/I/71jiGaztijL._AC_UY218_.jpg",
+                        "price": 19898,
+                        "rating": 4
+                    },
+                    {
+                        "id": 38,
+                        "title": "Samsung Galaxy Watch Active 2 (Bluetooth, 44 mm) - Silver, Aluminium Dial, Silicon Straps",
+                        "image": "https://m.media-amazon.com/images/I/71U5Gn0VU3L._AC_UY218_.jpg",
+                        "price": 23990,
+                        "rating": 4
+                    },
+                    {
+                        "id": 39,
+                        "title": "Fitbit Versa Smartwatch, Black",
+                        "image": "https://m.media-amazon.com/images/I/51oRClVQwBL._AC_UY218_.jpg",
+                        "price": 13999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 40,
+                        "title": "Apple Watch Series 3 (GPS, 42mm) - Silver Aluminium Case with White Sport Band",
+                        "image": "https://m.media-amazon.com/images/I/71tNLeJY8LL._AC_UY218_.jpg",
+                        "price": 23900,
+                        "rating": 4
+                    },
+                    {
+                        "id": 41,
+                        "title": "Fossil Gen 5 Garrett Touchscreen Smartwatch with Speaker, Heart Rate, GPS and Smartphone Notifications",
+                        "image": "https://m.media-amazon.com/images/I/81IXYLbEx0L._AC_UY218_.jpg",
+                        "price": 22995,
+                        "rating": 4
+                    },
+                    {
+                        "id": 42,
+                        "title": "Samsung Galaxy Watch Active 2 (Bluetooth, 44 mm) - Black, Aluminium Dial, Silicon Straps",
+                        "image": "https://m.media-amazon.com/images/I/61uej9efKYL._AC_UY218_.jpg",
+                        "price": 23990,
+                        "rating": 4
+                    }
+                ]
+            }
+        }
+    ],
+    "products": {
+        "first_row": [
+            {
+                "id": 1,
+                "title": "Headphones",
+                "image": "https://m.media-amazon.com/images/I/71lczMQC1bL._AC_UY218_.jpg",
+                "link": "/headphone",
+                "first_row": [
+                    {
+                        "id": 2,
+                        "title": "Fire-Boltt Blast 1400 Over -Ear Bluetooth Wireless Headphones with 25H Playtime, Thumping Bass, Lightweight Foldable Compact Design with Google/Siri Voice Assistance",
+                        "image": "https://m.media-amazon.com/images/I/71lczMQC1bL._AC_UY218_.jpg",
+                        "price": 3499,
+                        "rating": 4
+                    },
+                    {
+                        "id": 3,
+                        "title": "Sennheiser Over Ear Wireless HD 350BT Black Headphone",
+                        "image": "https://m.media-amazon.com/images/I/51siMFU59xL._AC_UY218_.jpg",
+                        "price": 7490,
+                        "rating": 3
+                    }
+                ],
+                "second_row": [
+                    {
+                        "id": 4,
+                        "title": "Sennheiser HD 4.50 SE BT NC Bluetooth Wireless Noise Cancellation Headphone",
+                        "image": "https://m.media-amazon.com/images/I/61OdVcoSQVL._AC_UY218_.jpg",
+                        "price": 14990,
+                        "rating": 4
+                    },
+                    {
+                        "id": 5,
+                        "title": "boAt Rockerz 450 Wireless Bluetooth Headphone with Up to 8H Playback, Adaptive Lightweight Design, Immersive Audio, Easy Access Controls and Dual Mode Compatibility (Luscious Black)",
+                        "image": "https://m.media-amazon.com/images/I/61ihz46SLOL._AC_UY218_.jpg",
+                        "price": 1499,
+                        "rating": 4
+                    },
+                    {
+                        "id": 6,
+                        "title": "Fire-Boltt Blast 1300 On-Ear Metal Finish Wireless Bluetooth Headphone, 18-Hour Playtime, 40mm Driver with HD Sound & Ultra-Soft Ear Cushions (Charcoal Black)",
+                        "image": "https://m.media-amazon.com/images/I/61ckBBVg1HL._AC_UY218_.jpg",
+                        "price": 1599,
+                        "rating": 4
+                    }
+                ],
+                "third_row": [
+                    {
+                        "id": 7,
+                        "title": "Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa Voice Control - Black",
+                        "image": "https://m.media-amazon.com/images/I/51sAtKgDkDL._AC_UY218_.jpg",
+                        "price": 29363,
+                        "rating": 5
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "Television",
+                "image": "https://m.media-amazon.com/images/I/91UYojFHobL._AC_UL320_.jpg",
+                "link": "/television",
+                "first_row": [
+                    {
+                        "id": 9,
+                        "title": "Sony Bravia 164 cm (65 inches) 4K Ultra HD Certified Android LED TV 65X8000H (Black) (2020 Model)",
+                        "image": "https://m.media-amazon.com/images/I/91UYojFHobL._AC_UL320_.jpg",
+                        "price": 118741,
+                        "rating": 4
+                    },
+                    {
+                        "id": 10,
+                        "title": "LG 139 cm (55 inches) 4K UHD Smart LED TV 55UM7290PTD (Ceramic BK + Dark Steel Silver) (2019 Model)",
+                        "image": "https://m.media-amazon.com/images/I/81QJ2tzfzmL._AC_UY218_.jpg",
+                        "price": 52999,
+                        "rating": 4
+                    }
+                ],
+                "second_row": [
+                    {
+                        "id": 11,
+                        "title": "OnePlus 138.8 cm (55 inches) Q1 Series 4K Certified Android QLED TV 55Q1IN-1 (Black) (Without Stand)",
+                        "image": "https://m.media-amazon.com/images/I/71EO3uGdJbL._AC_UY218_.jpg",
+                        "price": 68000,
+                        "rating": 4
+                    },
+                    {
+                        "id": 12,
+                        "title": "Mi TV 4X 163.9 cm (65 Inches) 4K Ultra HD Android LED TV (Black)",
+                        "image": "https://m.media-amazon.com/images/I/71jL1oKiPTL._AC_UL320_.jpg",
+                        "price": 54999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 13,
+                        "title": "Fire-Boltt Blast 1300 On-Ear Metal Finish Wireless Bluetooth Headphone, 18-Hour Playtime, 40mm Driver with HD Sound & Ultra-Soft Ear Cushions (Charcoal Black)",
+                        "image": "https://m.media-amazon.com/images/I/71oRARZmKnL._AC_UL320_.jpg",
+                        "price": 53900,
+                        "rating": 4
+                    }
+                ],
+                "third_row": [
+                    {
+                        "id": 14,
+                        "title": "OnePlus 138.8 cm (55 inches) Q1 Series 4K Certified Android QLED TV 55Q1IN Pro (Black)",
+                        "image": "https://m.media-amazon.com/images/I/71D89swgrvL._AC_UY218_.jpg",
+                        "price": 98899,
+                        "rating": 5
+                    }
+                ]
+            }
+        ],
+        "second_row": [
+            {
+                "id": 15,
+                "title": "Smart Phone",
+                "image": "https://m.media-amazon.com/images/I/51kGDXeFZKL._AC_UY218_.jpg",
+                "link": "/phone",
+                "first_row": [
+                    {
+                        "id": 16,
+                        "title": "Apple iPhone 11 (128GB) - Black",
+                        "image": "https://m.media-amazon.com/images/I/51kGDXeFZKL._AC_UY218_.jpg",
+                        "price": 67900,
+                        "rating": 4
+                    },
+                    {
+                        "id": 17,
+                        "title": "Samsung Galaxy S10 Plus (Black, 8GB RAM, 128GB Storage)",
+                        "image": "https://m.media-amazon.com/images/I/619jtWsN0cL._AC_UY218_.jpg",
+                        "price": 52999,
+                        "rating": 4
+                    }
+                ],
+                "second_row": [
+                    {
+                        "id": 18,
+                        "title": "OnePlus 8 (Onyx Black 12GB RAM+256GB Storage)",
+                        "image": "https://m.media-amazon.com/images/I/61UeA7TUrkL._AC_UY218_.jpg",
+                        "price": 49999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 19,
+                        "title": "Samsung Galaxy Note 20 Ultra 5G (Mystic Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+                        "image": "https://m.media-amazon.com/images/I/81frwlzRG5L._AC_UY218_.jpg",
+                        "price": 104999,
+                        "rating": 5
+                    },
+                    {
+                        "id": 20,
+                        "title": "Samsung Galaxy S20 Ultra (Cosmic Gray, 12GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+                        "image": "https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg",
+                        "price": 97999,
+                        "rating": 4
+                    }
+                ],
+                "third_row": [
+                    {
+                        "id": 21,
+                        "title": "Samsung Galaxy Note 20 (Mystic Bronze, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+                        "image": "https://images-na.ssl-images-amazon.com/images/I/81mNrJKEEBL._SY445_.jpg",
+                        "price": 77999,
+                        "rating": 4
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "title": "Laptop",
+                "image": "https://m.media-amazon.com/images/I/81AJjL1E+zL._AC_UY218_.jpg",
+                "link": "/laptop",
+                "first_row": [
+                    {
+                        "id": 23,
+                        "title": "HP Omen 9th Gen Intel Core i5 Processor 15.6-inch FHD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/NVIDIA GTX 1650 4GB/Shadow Black), 15-dc1092TX",
+                        "image": "https://m.media-amazon.com/images/I/81AJjL1E+zL._AC_UY218_.jpg",
+                        "price": 83000,
+                        "rating": 4
+                    },
+                    {
+                        "id": 24,
+                        "title": "Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz 9th Gen Intel Core i7) - Space Grey",
+                        "image": "https://m.media-amazon.com/images/I/71L2iBSyyOL._AC_UY218_.jpg",
+                        "price": 199900,
+                        "rating": 5
+                    }
+                ],
+                "second_row": [
+                    {
+                        "id": 25,
+                        "title": "ASUS ZenBook 13 UX334FL-A7621TS Intel Core i7 10th Gen 13.3-inch FHD Thin & Light Laptop (16GB RAM/1TB PCIe SSD/Windows 10/MS-Office 2019/2GB NVIDIA GeForce MX250 Graphics/1.27 Kg), Royal Blue",
+                        "image": "https://m.media-amazon.com/images/I/614MujB11uL._AC_UY218_.jpg",
+                        "price": 115490,
+                        "rating": 2
+                    },
+                    {
+                        "id": 26,
+                        "title": "Dell XPS 9370 13.3-inch UHD Thin & Light Laptop(8th Gen i7-8550U/16GB/512GB SSD/Win 10 + MS Office/Integrated Graphics), Gold",
+                        "image": "https://m.media-amazon.com/images/I/61T2HPeGebL._AC_UY218_.jpg",
+                        "price": 139990,
+                        "rating": 4
+                    },
+                    {
+                        "id": 27,
+                        "title": "HP Envy x360 Ryzen 5 13.3-Inch 2-in-1 FHD Touchscreen Laptop (8GB/512GB/Windows 10/Vega 8 Graphics/MS Office/Nightfall Black/1.3 kg), 13-ar0118au",
+                        "image": "https://m.media-amazon.com/images/I/81DIp5S7RFL._AC_UY218_.jpg",
+                        "price": 77990,
+                        "rating": 4
+                    }
+                ],
+                "third_row": [
+                    {
+                        "id": 28,
+                        "title": "Dell Inspiron 7380 13.3-inch FHD Thin & Light Laptop (Core i5 8th Gen/8GB/512GB SSD/Windows 10 + MS Office/Integrated Graphics/Silver)",
+                        "image": "https://m.media-amazon.com/images/I/61uOi7c9XgL._AC_UY218_.jpg",
+                        "price": 71990,
+                        "rating": 5
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "title": "Kindle Books",
+                "image": "https://m.media-amazon.com/images/I/91FEb-0DFuL._AC_UY218_.jpg",
+                "link": "/books",
+                "first_row": [
+                    {
+                        "id": 30,
+                        "title": "Sita: Warrior of Mithila (Ram Chandra Book 2)",
+                        "image": "https://m.media-amazon.com/images/I/91FEb-0DFuL._AC_UY218_.jpg",
+                        "price": 20,
+                        "rating": 5
+                    },
+                    {
+                        "id": 31,
+                        "title": "The 5 AM Club",
+                        "image": "https://m.media-amazon.com/images/I/71WyJmorrKL._AC_UY218_.jpg",
+                        "price": 119.97,
+                        "rating": 5
+                    }
+                ],
+                "second_row": [
+                    {
+                        "id": 32,
+                        "title": "Think and Grow Rich",
+                        "image": "https://m.media-amazon.com/images/I/711RcAn0EiL._AC_UY218_.jpg",
+                        "price": 103.55,
+                        "rating": 5
+                    },
+                    {
+                        "id": 33,
+                        "title": "The Power of Your Subconscious Mind",
+                        "image": "https://m.media-amazon.com/images/I/81Rift0ymZL._AC_UY218_.jpg",
+                        "price": 91.05,
+                        "rating": 5
+                    },
+                    {
+                        "id": 34,
+                        "title": "Immortals of Meluha (The Shiva Trilogy Book 1)",
+                        "image": "https://m.media-amazon.com/images/I/81zHwTa288L._AC_UY218_.jpg",
+                        "price": 25,
+                        "rating": 4
+                    }
+                ],
+                "third_row": [
+                    {
+                        "id": 35,
+                        "title": "How to Stop Worrying and Start Living",
+                        "image": "https://m.media-amazon.com/images/I/81ez4l+63bL._AC_UY218_.jpg",
+                        "price": 19,
+                        "rating": 5
+                    }
+                ]
+            }
+        ],
+        "third_row": [
+            {
+                "id": 36,
+                "title": "Smart Watch",
+                "image": "https://m.media-amazon.com/images/I/71jiGaztijL._AC_UY218_.jpg",
+                "link": "/watch",
+                "first_row": [
+                    {
+                        "id": 37,
+                        "title": "Fitbit FB507RGRW Versa 2 Health & Fitness Smartwatch with Heart Rate, Music, Alexa Built-in, Sleep & Swim Tracking, Bordeaux/Copper Rose, One Size (S & L Bands Included) (Bordeaux/Copper Rose)",
+                        "image": "https://m.media-amazon.com/images/I/71jiGaztijL._AC_UY218_.jpg",
+                        "price": 19898,
+                        "rating": 4
+                    },
+                    {
+                        "id": 38,
+                        "title": "Samsung Galaxy Watch Active 2 (Bluetooth, 44 mm) - Silver, Aluminium Dial, Silicon Straps",
+                        "image": "https://m.media-amazon.com/images/I/71U5Gn0VU3L._AC_UY218_.jpg",
+                        "price": 23990,
+                        "rating": 4
+                    }
+                ],
+                "second_row": [
+                    {
+                        "id": 39,
+                        "title": "Fitbit Versa Smartwatch, Black",
+                        "image": "https://m.media-amazon.com/images/I/51oRClVQwBL._AC_UY218_.jpg",
+                        "price": 13999,
+                        "rating": 4
+                    },
+                    {
+                        "id": 40,
+                        "title": "Apple Watch Series 3 (GPS, 42mm) - Silver Aluminium Case with White Sport Band",
+                        "image": "https://m.media-amazon.com/images/I/71tNLeJY8LL._AC_UY218_.jpg",
+                        "price": 23900,
+                        "rating": 4
+                    },
+                    {
+                        "id": 41,
+                        "title": "Fossil Gen 5 Garrett Touchscreen Smartwatch with Speaker, Heart Rate, GPS and Smartphone Notifications",
+                        "image": "https://m.media-amazon.com/images/I/81IXYLbEx0L._AC_UY218_.jpg",
+                        "price": 22995,
+                        "rating": 4
+                    }
+                ],
+                "third_row": [
+                    {
+                        "id": 42,
+                        "title": "Samsung Galaxy Watch Active 2 (Bluetooth, 44 mm) - Black, Aluminium Dial, Silicon Straps",
+                        "image": "https://m.media-amazon.com/images/I/61uej9efKYL._AC_UY218_.jpg",
+                        "price": 23990,
+                        "rating": 4
+                    }
+                ]
+            }
+        ]
+    }
+}
