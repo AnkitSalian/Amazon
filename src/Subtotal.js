@@ -12,7 +12,7 @@ function Subtotal() {
             <CurrencyFormat renderText={(value) => (
                 <>
                     <p>
-                        Subtotal ({basket.length} items): <strong>{` ${value}`}</strong>
+                        Subtotal ({basket?.reduce((val, obj) => val + (obj['count']), 0)} items): <strong>{` ${value}`}</strong>
                         {/* Subtotal (0 items): <strong>0</strong> */}
                     </p>
                     <small className="subtotal__gift">
