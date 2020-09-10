@@ -1,5 +1,6 @@
 export const initialState = {
     basket: [],
+    user: null,
 }
 
 //Selector
@@ -68,6 +69,11 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 basket: deleteItem([...state.basket, action.item])
+            }
+        case "SET_USER":
+            return {
+                ...state,
+                user: action.user
             }
     }
 }
