@@ -27,7 +27,29 @@ function CheckoutProduct({ id, title, image, price, rating, count }) {
                 count: 1,
             }
         })
+        
     }
+
+    const addToBasket = async () => {
+
+        await basket.forEach(async item => {
+            if (item.id == id) {
+                item.count += await 1;
+            }
+        })
+        await dispatch({
+            type: 'ADD_TO_BASKET',
+            item: {
+                id,
+                title,
+                image,
+                price,
+                rating,
+                count: 1,
+            }
+        })
+    }
+
     return (
         <div className="checkoutProduct" key={`checkout_product_${id}`}>
             <img className="checkoutProduct__image" src={image} alt="product_image" />
@@ -47,6 +69,7 @@ function CheckoutProduct({ id, title, image, price, rating, count }) {
                 </div>
                 <button onClick={removeFromBasket}>Remove from Basket</button>
                 <button onClick={removeOneItem}>Remove One Item</button>
+                <button onClick={addToBasket}>Add One Item</button>
             </div>
         </div>
     );
