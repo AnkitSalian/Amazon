@@ -1,10 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# [Demo](https://challenge-27088.web.app)
+# [Click Here for Demo](https://challenge-27088.web.app)
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you have to run both frontend and backend:
+
+## Run below command for running frontend
 
 ### `npm start`
 
@@ -14,10 +16,42 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+## Run below command for running backend
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `firebase emulators:start`
+
+After this you will get a backend URL like this `http://localhost:5001/challenge-27088/us-central1/api`
+
+## Firebase pre-requisite
+
+Add your own firebase.js file in src directory with your own unique keys export auth and firestore from here 
+
+### `npm install -g firebase-tools`
+
+Install firebase-tools globally to access your firebase projects
+
+### `firebase login`
+
+You will see a popup from firebase, and login with your credentials
+
+## Backend configuration pre-requisite
+
+### `firebase init`
+
+Select functions -> JavaScript click Enter
+
+## Follow below process to deploy backend
+
+### `firebase deploy --only functions`
+
+Running this command will return an URL of deployed backend app in firebase
+**Note: You might get errror while running this, you have to switch from `Firebase Spark to Firebase Blaze`**
+
+## Follow below process to deploy frontend
+
+### `firebase init`
+
+Select Hosting click Enter
 
 ### `npm run build`
 
@@ -27,44 +61,22 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `firebase deploy`
 
-### `npm run eject`
+This will return an https url of the deployed application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `firebase deploy --only hosting`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If application was deployed once, only change the hosting than starting the deploymet from scratch
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Overview:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This application is Amazon clone with many more functionality on the way coming up. At present the application has a integration with Stripe payment gateway for database we are using Firebase for authentication and data store. 
+product.json has a list of category wise product you can find detailed products and unique routings mentioned for all products.
 
-## Learn More
+### Dummy Card Details:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`Card No - 4242 4242 4242 4242`
+`Expiry - 04/24`
+`CVV - 242`
+`ZIP - 42424`
