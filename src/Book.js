@@ -5,21 +5,24 @@ import './Book.css';
 
 function Book() {
     const first_row = json.products.second_row[2].first_row.map(item => (
-        <Product title={item.title}
+        <Product key={`book_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const second_row = json.products.second_row[2].second_row.map(item => (
-        <Product title={item.title}
+        <Product key={`book_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const third_row = json.products.second_row[2].third_row.map(item => (
-        <Product title={item.title}
+        <Product key={`book_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}

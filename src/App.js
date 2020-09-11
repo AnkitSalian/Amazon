@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { loadStripe } from '@stripe/stripe-js';
+import { Elements } from '@stripe/react-stripe-js';
 import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
@@ -14,6 +16,11 @@ import Laptop from './Laptop';
 import Book from './Book';
 import Watch from './Watch';
 import './App.css';
+import Payment from './Payment';
+import stripeJson from './stripe.json';
+import Order from './Order';
+
+const promise = loadStripe(stripeJson.stripeKey)
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -82,6 +89,18 @@ function App() {
           <Route path="/watch">
             <Header />
             <Watch />
+          </Route>
+
+          <Route path="/payment">
+            <Header />
+            <Elements stripe={promise}>
+              <Payment />
+            </Elements>
+          </Route>
+
+          <Route path="/orders">
+            <Header />
+            <Order />
           </Route>
 
           <Route path="/">

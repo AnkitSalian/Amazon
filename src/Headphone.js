@@ -5,21 +5,24 @@ import './Headphone.css';
 
 function Headphone() {
     const first_row = json.products.first_row[0].first_row.map(item => (
-        <Product title={item.title}
+        <Product key={`headphone_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const second_row = json.products.first_row[0].second_row.map(item => (
-        <Product title={item.title}
+        <Product key={`headphone_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const third_row = json.products.first_row[0].third_row.map(item => (
-        <Product title={item.title}
+        <Product key={`headphone_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
@@ -40,7 +43,7 @@ function Headphone() {
                     </div>
                 </div>
                 <div className="headphones__row">
-                        {third_row}
+                    {third_row}
                 </div>
             </div>
         </div>

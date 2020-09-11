@@ -5,21 +5,24 @@ import './Phone.css';
 
 function Phone() {
     const first_row = json.products.second_row[0].first_row.map(item => (
-        <Product title={item.title}
+        <Product key={`phone_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const second_row = json.products.second_row[0].second_row.map(item => (
-        <Product title={item.title}
+        <Product key={`phone_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const third_row = json.products.second_row[0].third_row.map(item => (
-        <Product title={item.title}
+        <Product key={`phone_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}

@@ -5,21 +5,24 @@ import './Tv.css';
 
 function Tv() {
     const first_row = json.products.first_row[1].first_row.map(item => (
-        <Product title={item.title}
+        <Product key={`tv_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const second_row = json.products.first_row[1].second_row.map(item => (
-        <Product title={item.title}
+        <Product key={`tv_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}
             id={item.id} />
     ));
     const third_row = json.products.first_row[1].third_row.map(item => (
-        <Product title={item.title}
+        <Product key={`tv_key${item.id}`}
+            title={item.title}
             image={item.image}
             price={item.price}
             rating={item.rating}

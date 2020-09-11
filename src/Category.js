@@ -5,19 +5,22 @@ import CategoryProduct from './CategoryProduct';
 
 function Category() {
     const first_row = json.products.first_row.map(item => (
-        <CategoryProduct title={item.title}
+        <CategoryProduct key={`category_product_key${item.id}`}
+            title={item.title}
             image={item.image}
             link={item.link}
             id={item.id} />
     ));
     const second_row = json.products.second_row.map(item => (
-        <CategoryProduct title={item.title}
+        <CategoryProduct key={`category_product_key${item.id}`}
+            title={item.title}
             image={item.image}
             link={item.link}
             id={item.id} />
     ));
     const third_row = json.products.third_row.map(item => (
-        <CategoryProduct title={item.title}
+        <CategoryProduct key={`category_product_key${item.id}`}
+            title={item.title}
             image={item.image}
             link={item.link}
             id={item.id} />
