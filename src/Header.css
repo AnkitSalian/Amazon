@@ -8,6 +8,10 @@
     z-index: 100;
 }
 
+.header > div a {
+    text-decoration: none;
+}
+
 .header__logo {
     width: 100px;
     object-fit: contain;

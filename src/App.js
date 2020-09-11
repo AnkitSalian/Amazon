@@ -18,7 +18,7 @@ import Watch from './Watch';
 import './App.css';
 import Payment from './Payment';
 import stripeJson from './stripe.json';
-import Order from './Order';
+import Orders from './Orders';
 
 const promise = loadStripe(stripeJson.stripeKey)
 
@@ -100,7 +100,7 @@ function App() {
 
           <Route path="/orders">
             <Header />
-            <Order />
+            <Orders />
           </Route>
 
           <Route path="/">

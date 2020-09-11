@@ -34,8 +34,6 @@ function Payment() {
         getClientSecret();
     }, [basket])
 
-    console.log('Client Secret ===>', clientSecret);
-
     const handleSubmit = async (event) => {
         event.preventDefault();
         setProcessing(true);
@@ -48,15 +46,15 @@ function Payment() {
             //Payment Intent = payment confirmation
 
             db
-              .collection('users')
-              .doc(user?.uid)
-              .collection('orders')
-              .doc(paymentIntent.id)
-              .set({
-                  basket: basket,
-                  amount: paymentIntent.amount,
-                  created: paymentIntent.created
-              })
+                .collection('users')
+                .doc(user?.uid)
+                .collection('orders')
+                .doc(paymentIntent.id)
+                .set({
+                    basket: basket,
+                    amount: paymentIntent.amount,
+                    created: paymentIntent.created
+                })
 
             setSucceeded(true);
             setError(null);
@@ -121,13 +119,9 @@ function Payment() {
                             <div className="payment__priceContainer">
                                 <CurrencyFormat renderText={(value) => (
                                     <>
-                                        <h3>
-                                            Subtotal ({basket?.reduce((val, obj) => val + (obj['count']), 0)} items): <strong>{` ${value}`}</strong>
-                                            {/* Subtotal (0 items): <strong>0</strong> */}
-                                        </h3>
-                                        <small className="subtotal__gift">
-                                            <input type="checkbox" /> This order contains a gift
-                                    </small>
+                                        <h4>
+                                            Order Total: ({basket?.reduce((val, obj) => val + (obj['count']), 0)} items): <strong>{` ${value}`}</strong>
+                                        </h4>
                                     </>
                                 )}
                                     decimalScale={2}
